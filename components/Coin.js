@@ -4,7 +4,6 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import styled from "styled-components";
 
 const Coin = ({ coin }) => {
-  console.log("coin: ", coin);
   return (
     <Wrapper>
       <div>
