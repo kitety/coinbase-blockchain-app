@@ -38,13 +38,12 @@ const Details = styled.div`
 `;
 export default function Home() {
   const address = useAddress();
-  console.log("address: ", address);
-  console.log(address);
+
   const connectWallet = useMetamask();
   return (
     <Wrapper>
       {address ? (
-       <Dashboard address={address}/>
+        <Dashboard address={address} />
       ) : (
         <WalletConnect>
           <Button
@@ -63,5 +62,3 @@ export default function Home() {
     </Wrapper>
   );
 }
-
-

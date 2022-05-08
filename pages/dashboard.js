@@ -4,11 +4,9 @@ import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
 
 const Dashboard = ({ address }) => {
-  console.log("address: ", address);
-
   return (
     <Wrapper>
-      <Sidebar/>
+      <Sidebar />
       <MainContainer>
         <Header />
         <Main />

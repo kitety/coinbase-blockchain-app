@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Header = () => {
   const address = useAddress();
-  console.log("address: ", address);
+
   const addressStr = `${address.slice(0, 7)}...${address.slice(35)}`;
   return (
     <Wrapper>
